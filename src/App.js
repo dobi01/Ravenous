@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
+import BusinessList from './components/BusinessList/BusinessList';
+import SearchBar from './components/SearchBar/SearchBar';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started
-        </p>
+        <h1>ravenous</h1>
+          <SearchBar />
+          <BusinessList />
       </div>
     );
   }
